@@ -31,3 +31,12 @@ git branch -D nom_branch
 
 ### afficher l'historique 
 git log
+
+# Annuler une action
+
+git reset [mode]
+
+mode :
+    - --soft: ne touche ni à l'index, ni à la working copy
+    - --hard: reset l'index et la working copy
+    - --mixed: reset l'index mais working copy.

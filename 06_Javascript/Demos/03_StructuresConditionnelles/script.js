@@ -109,6 +109,7 @@ switch (age) {
         break;
     default:
         console.log("Ce n'est plus un enfant");
+        break;
 }
 
 // Forcer le déclenchement du switch

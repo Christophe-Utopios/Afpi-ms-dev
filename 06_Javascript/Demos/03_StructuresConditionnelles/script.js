@@ -55,3 +55,63 @@ if(!estVrai2) {
 } else {
     console.log("C'est vrai");
 }
+
+
+/*
+    SWITCH CASE
+
+    switch (condition) {
+        case valeur1:
+            instruction
+            break;
+        case valeur3:
+            instruction
+            break;
+            .
+            .
+            .
+        default:
+            instruction
+            break;
+    }
+*/
+
+let fruit = "orange"
+
+switch (fruit) {
+    case "Orange":
+        console.log("Les oranges sont à 2 euros");
+        break;
+    case "banane":
+        console.log("Les bananes sont à 1 euros");
+        break;
+    default:
+        console.log("Votre fruit n'est pas disponible");
+        break;
+}
+
+// Switch avec range de valeurs
+
+age = 7
+
+switch (age) {
+    case age < 3:
+        console.log("Votre enfant est trop jeune");
+        break;
+    case age <= 6:
+        console.log("Votre est dans la catégorie BABY");
+        break;
+    case age <= 8:
+        console.log("Votre est dans la catégorie POUSSIN");
+        break;
+    case age <= 10:
+        console.log("Votre est dans la catégorie PUPILLE");
+        break;
+    default:
+        console.log("Ce n'est plus un enfant");
+}
+
+// Forcer le déclenchement du switch
+switch (true) {
+
+}

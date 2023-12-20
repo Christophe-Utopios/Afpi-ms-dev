@@ -20,3 +20,27 @@ for (let k = 1; k <= 10; k++) {
     }
     console.log(k);
 }
+
+// Boucle Tant que ... (while)
+
+console.log("-------------------");
+
+let i = 1
+
+// /!\ risque de boucle infinie si la condition de sortie ne change pas de valeur à chaque tour de boucle
+// Vérification de la condition AVANT d'effectuer l'instruction
+while (i <= 10) {
+    console.log(i);
+    i++
+}
+
+// Faire ... Tant que (do ... while)
+// Effectue l'instruction AVANT de vérifier la condition
+console.log("-------------------");
+
+let j = 1
+
+do {
+    console.log(j);
+    j++
+} while (j <= 10)

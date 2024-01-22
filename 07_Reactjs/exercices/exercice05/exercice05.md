@@ -5,6 +5,9 @@ Développer une application React comprenant un composant de formulaire de login
 
 ## Instructions
 
+### 0. Configuration projet
+- npm create vite@latest
+
 ### 1. Composant de Formulaire de Login
 - Créer un composant de formulaire de login avec les champs nécessaires (par exemple, nom d'utilisateur et mot de passe).
 

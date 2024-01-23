@@ -5,6 +5,8 @@ Créer une application React utilisant les principes de base du routage pour nav
 
 ## Objectifs de l'Exercice
 
+npm create vite@latest
+
 ### 1. Création de Pages
 - Développer trois pages distinctes avec un contenu unique pour chacune.
 - Créer une page d'erreur personnalisée pour gérer les routes non reconnues.

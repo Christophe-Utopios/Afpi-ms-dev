@@ -3,8 +3,6 @@ import './App.css'
 import { Link, Outlet, NavLink } from 'react-router-dom'
 
 function App() {
-
-
   return (
     <>
     <div>

@@ -10,7 +10,7 @@ Développer une application React qui utilise `useEffect()` pour afficher un mes
 - Créer deux variables d'état pour les champs de saisie (inputs) de type numérique.
 
 ### 2. Utilisation de `useEffect()`
-- Utiliser `useEffect()` pour surveiller les changements dans les variables d'état des inputs.
+- Utiliser `useEffect()` **pour** surveiller les changements dans les variables d'état des inputs.
 - Le calcul effectué doit être la multiplication des deux nombres saisis.
 
 ### 3. Affichage Conditionnel
@@ -21,4 +21,4 @@ Développer une application React qui utilise `useEffect()` pour afficher un mes
 
 ### 4. Gestion de l'Affichage du Message
 - Utiliser une variable d'état de type booléen pour gérer l'affichage du message.
-- Le message doit se mettre à jour automatiquement en fonction des entrées de l'utilisateur.
+- Le message doit se mettre à jour automatiquement **en** fonction des entrées de l'utilisateur.
